@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="../CSS/styles3.css">
+ <link rel="shortcut icon" href="./assets/ico/favicon.ico" type="image/x-icon">
+
+ <title>Sobre</title>
+</head>
+
+ <body>
+ <p>Pagina Sobre esse site</p>
+ <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus ab asperiores, repellat recusandae nemo minima iusto quod quae iure in nisi illum sequi sed, perspiciatis aut veniam, libero rem dolorum.</p><br>
+ <a href="index.html" rel="prev" target="_self">Voltar ao inicio</a>
+
+ <h1>Links para download</h1>
+ <ul>
+  <li><a href="./livros/logo.pdf" target="_blank" download="logo.pdf" type="application/pdf" >Baixar o livro em PDF</a></li>
+  <li><a href="#">Baixar outro arquivo</a></li>
+ </ul>
+
+ <!-- Tag <picture> tag <img> tamanho imagem a ser carregada depois tag source media type caso a imagem for menor que o tamanho da imagem carregada carregar ( srcset ) imagem menor   -->
+
+ <picture>
+  <source media="(max-width: )" srcset="#" type="image/">
+  <img src="" alt="">
+ </picture>
+<!-- Primeiro modo -->
+ <h1>Reproduzindo Audio</h1>
+ <p>Vamos reproduzir audios em html</p>
+ <audio src="./musica/ILY Baby - Dyalla.mp3" controls>Hip-Hop</audio>
+<!-- Segundo modo recomendado, por que alguns navegadores não suporta áudio -->
+ <audio>
+  <source src="./musica/ILY Baby - Dyalla.mp3" type="audio/mpeg">
+  <source src="#.ogg" type="audio/ogg">
+  <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="./musica/ILY Baby - Dyalla.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+ </audio>
+
+ <h1>Inserindo Videos hospedados localmente</h1>
+ <p>Este video está hospedado no meu próprio servidor.</p>
+
+ <video poster="./video/capa/Picsart_22-04-15_20-52-12-019.jpg" muted controls width="350">
+  <source src="./video/VID_20221204_212849(0).mp4" type="video/mp4">
+  
+ </video>
+
+ <h1>Inserindo videos Youtube</h1>
+ <iframe width="350" height="200" src="https://www.youtube.com/embed/-X3ovdLynqM" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+
+ </body>
+</html>

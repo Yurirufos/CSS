@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles3.css">  
+  <link rel="shortcut icon" href="./assets/ico/favicon.ico" type="image/x-icon">
+
+  <title>Site para praticar</title>
+</head>
+  <h1 id="INICIO">INICIO</h1>
+  <Body>
+
+<!-- Formulários -->
+
+<form action="" method="">
+
+  <!-- Tipo texto  -->
+
+  <label for="nome">NOME</label>
+  <input type="text" name="nome" placeholder="Ex: YuriFaria"/>
+
+  <!-- Tipo senha -->
+
+  <label for="password">password</label>
+  <input type="password" name="password" id=""/>
+
+  <!-- tipo email -->
+
+  <label for="email">email</label>
+  <input type="email" name="email" id="" placeholder="duhsuhd@dndsaj.com.br"/>
+
+  <!-- formas de submeter (Submit) -->
+
+  <input type="submit" value="Enviar"/>
+  <buttom type="submit">Enviar</buttom>
+
+
+  <!-- text area -->
+  <p>Descrição</p>
+  <textarea name="" id="" cols="50" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam similique modi magni sequi itaque autem ipsum repudiandae minima quia iure architecto labore dolores velit aperiam voluptates, necessitatibus ipsa odio laborum.</textarea>
+  
+  
+  <!-- Radio buttons -->
+  <p>Qual é a sua linguagem preferida</p>
+  <input type="radio" name="linguagem" id="" value="Javascript"/> Javascript
+  <input type="radio" name="linguagem" id="" value="C++"/> C++ 
+  <input type="radio" name="linguagem" id="" value="Python"/> Python
+
+  <!-- checkboxes -->
+  <p>Qual é a sua linguagem preferida</p>
+  <input type="checkbox" name="linguagem" id="" value="Javascript"/> Javascript
+  <input type="checkbox" name="linguagem" id="" value="C++"/> C++ 
+  <input type="checkbox" name="linguagem" id="" value="Python"/> Python  
+<br>
+<br>
+  <!-- select inputs -->
+  <select name="linguagem">
+    <option value="">Selecione</option>
+    <option value="Javascript">Javascript</option>
+    <option value="Python">Python</option>
+    <option value="C++">C++</option>
+  </option>
+</select>
+
+
+
+
+</form>
+<p>Lista sem ordem &lt;ul&gt;</p>  
+    <!-- Unorderer list -->
+    <!--<ul type="" circle square disk -->
+    <ul> 
+      <li><a href="index.html" >Home</a></li>
+      <li><A href="sobre.html" rel="next" target="_self">SOBRE</A></li>
+      <li>numero</li>
+    </ul>
+<p>Lista ordenada &lt;ol&gt;</p>
+    <!-- Orderer List -->
+    <!-- <ol type="" A a I 1 -->
+    <ol>
+      <li>yuri</li>
+      <li>Raphael</li>
+      <li>Faria</li>
+    </ol>
+
+<!-- Nasted List (Lista dentro da lista) -->
+<p>Lista dentro da lista </p>
+<ul>
+  <li>yuri</li>
+  <ol>
+    <li>Raphael</li>
+    <li>de Faria</li>
+  </ol>
+  <li>yuri</li>
+  <ul>
+    <li>Raphael</li>
+    <li>de Faria</li>
+  </ul>
+  <li>yuri</li>
+</ul>
+<h2>Lista de Definições</h2>
+<p>Usa-se a TAG &lt;dl&gt; e dentro dela o termo &lt;dt&gt; e depois a descrição &lt;dd&gt;</p>
+
+<dl>
+  <dt>HTML</dt>
+  <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+  <dt>CSS</dt>
+  <dd>Linguagem de marcação para a criação do design de um site</dd>
+  <dt>JavaScript</dt>
+  <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+</dl>
+
+<!-- Tabelas <table></table> ( table row ) td (Table data) e th (table head)-->
+<table>
+ <tr>
+   <th>CABEÇALHO</th>
+   <th>1</th>
+ </tr>
+
+ <tr>
+   <td>1</td>
+   <td>uhdsaudhu</td>
+ </tr>
+
+ <tr>
+   <td>2</td>
+   <td>udhsauduudhs</td>
+ </tr>
+</table>
+
+
+
+
+
+
+<!-- Sup e Sub (Deixa qualquer letra ou caracter acima (sup) ou abaixo (Sub)) -->
+<h3>MEU <sup>nome</sup> É <sub>Yuri</sub></h3>
+
+
+<!-- Strong e Em ( (Stronh) serve para deixar uma palavra em negrito e o (Em) para deixa uma palavra em itálico) -->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong> Minus, officiis </strong>Minus, officiis<br> qui illo rerum obcaecati consectetur molestias inventore doloremque id non, tenetur<br> explicabo eligendi <em>erspiciatis alias iusto possimus ipsam magnam soluta? </em><br>perspiciatis alias iusto possimus ipsam magnam soluta?</p>
+
+<!-- CAracteres Especiais Usar o simbolo & -->
+
+&copy; &SmallCircle;
+
+<br>
+<br> 
+
+<!-- Links Externos -->
+
+<a href="http://www.google.com.br" target="_blank">Pesquise no google</a>
+
+
+<!-- Links Internos -->
+<br>
+<a href="sobre.html">SOBRE</a>
+<br/>
+<br/>
+<br/>
+<!-- Single page -->
+<a href="#imagem">ir para o final da página</a>
+   <!-- Section Images-->
+   <!-- <h2>Imagem</h2>
+   <img src="./assets/image.jpg" alt="Nave espacial da NASA ( Agência Aero Espacial Americana" width="250px" height="150"> -->
+  <!--End of Section Images-->
+  <!-- Selection Images -->
+  <h2>Imagem<br>Foguete</h2>
+   <img src="./assets/image.jpg" alt="Nave espacial da NASA ( Agência Aero Espacial Americana" width="250px" height="150"><br/>
+   <a href="./assets/./image.jpg" target="_blank"><img src="./assets/image.jpg" width="100px" alt="Nave Espacial"></a>
+   <!-- End of Selection images -->
+
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  <br/><br/>
+  
+    <!-- Selection Images -->
+  <h2 id="imagem">Imagem 2</h2>
+  <img src="./assets/image.jpg" alt="Nave espacial da NASA ( Agência Aero Espacial Americana" width="250px" height="150">
+  <!-- End of Selection images --><br/>
+  <a href="#INICIO">Voltar ao inicio</a>
+   <h1>Site Bacana</h1>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et ea rerum dignissimos sunt ex asperiores dolorum sequi, quaerat veniam possimus iusto recusandae atque officia consequatur. Eius cumque tempora odit commodi!</p>
+  </Body>
+</head>
+</html>
+

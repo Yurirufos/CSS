@@ -1,0 +1,60 @@
+
+/* id */
+
+#title {
+    background-color: black;
+    color: blueviolet;
+    font-size: 100px;
+  }
+  #footer{
+    color: rgb(50, 50, 80);
+
+  }
+
+  /* Fim de id */
+  
+  
+  h2 {
+   color: blueviolet;
+   font-size: 30;
+  }
+  h3 {
+    color: brown;
+  }
+  p {
+    color: darkgreen;
+  }
+  span {
+    color: darkcyan;
+  }
+  button {
+    background: rgb(125, 109, 134);
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+
+  button:hover {
+    background-color: rgb(49, 43, 53);
+    text-decoration: underline;
+    cursor: pointer;
+    box-shadow: 5px 0 rgba(0, 0, 0, 0.815);
+    
+  }
+
+  button:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+  }
+
+  
+  
+
+/* div */
+
+div {
+  background-color: aquamarine;
+}
