@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mesclagem de Tabela</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 300px;
+      }
+
+      td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .mesclada-row {
+        background-color: blueviolet;
+      }
+      .mesclada-col {
+        background-color: black;
+        color: white;
+      }
+
+      caption {
+       background-color: lightgray;
+       font-size: 2em;
+
+      }
+
+      th {
+       background-color: rgba(0, 0, 0, 0.651);
+       color: aliceblue;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <h1>mesclagem de celulas</h1>
+    <table>
+     <caption><strong>Mesclagem Célula</strong></caption>
+      <tr>
+       <tr>
+         <th>Rowspan</th>
+         <th colspan="2">Colspan</th>
+       </tr>
+        <td rowspan="2" class="mesclada-row">A</td>
+        <td colspan="2" class="mesclada-col">A</td>
+        <!-- rowspan="" ocupa linhas (ou seja verticalmente ) e colspan="" ocupa x colunas ( horizontalmente )-->
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>A</td>
+        <td>A</td>
+      </tr>
+    </table>
+  </body>
+</html>
