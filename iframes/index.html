@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navegar pelo iframe</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    header {
+      background-image: linear-gradient(to bottom, blueviolet, black);
+      padding: 10px;
+    }
+    header > nav {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header > nav > a {
+      text-decoration: none;
+      color: white;
+      font-size: 2em;
+    }
+
+    header > nav > a:hover {
+      background-color: rgb(85, 27, 139);
+      width: 150px;
+      height: 50px;
+    }
+
+    h1 {
+      text-align: center;
+      color: aliceblue;
+      font-weight: 700;
+      text-shadow: 2px 1px 2px black;
+      font-size: 4em;
+    }
+    h2 {
+      text-align: center;
+    }
+
+    iframe {
+      display: block;
+      margin: auto;
+      width: 80vw;
+      height: 300px;
+      border: 2px dashed blueviolet;
+    }
+
+    footer {
+      background-color: blueviolet;
+      color: aliceblue;
+      font-size: 10px;
+      padding: 5px;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Navegação pelo iframe</h1>
+      <nav>
+        <a href="outraspaginas/sobre.html">SOBRES</a>
+        <a href="outraspaginas/contatos.html">CONTATOS</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Veja as páginas no frame a baixo</h2>
+
+      <iframe src="" frameborder="0"></iframe>
+      <p></p>
+      <h2>Texto</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati quis
+        sit quisquam inventore laudantium error id vitae quasi asperiores quia
+        alias deserunt, libero ut consequuntur eligendi, dicta porro? Tempora
+        saepe excepturi quasi cupiditate perferendis ipsa recusandae atque!
+        Neque, iusto. Inventore maiores voluptatum suscipit maxime molestias
+        iusto cum! Cum suscipit mollitia at, error eius nemo recusandae quae
+        blanditiis vero unde ipsum facere sequi inventore voluptatibus eos ullam
+        pariatur veritatis iure repellendus! Dolorem numquam, enim
+        exercitationem atque, perspiciatis sed, eaque facilis minima esse soluta
+        ullam ab fugiat amet unde quaerat quae distinctio iusto nostrum
+        repudiandae deserunt totam. Corrupti, tenetur quam! Mollitia, hic!
+      </p>
+    </main>
+    <footer>
+      <p>Site criato por Yuri.R.Faria</p>
+    </footer>
+  </body>
+</html>
