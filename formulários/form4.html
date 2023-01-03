@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <h1>TESTES DE FORMULÁRIOS</h1>
+    <form action="cadastro.php">
+      <!-- PAR INPUTZ TIPO CHECKBOX E RADIO , CONSEGUIMOS COLOCAR O COMANDO "CHECKED" CASO QUEIRA QUE ALGUMA OPÇÃO JÁ APAREÇA MARCADA ex: no checkbox do (Tênis) -->
+
+      <fieldset>
+        <legend>Espaço seleção esportes</legend>
+        <label for="bas">Basqute</label>
+        <input type="checkbox" name="bas" id="bas" /><br />
+        <label for="fut">Futebol</label>
+        <input type="checkbox" name="fut" id="fut" /><br />
+        <label for="vol">Volei</label>
+        <input type="checkbox" name="vol" id="vol" /><br />
+        <label for="ten">Tênis</label>
+        <input type="checkbox" name="ten" id="ten" checked/>
+      </fieldset>
+
+      <!-- USAR O MESMO "NAME" PARA INPUT TIPO RADIO, ASSIM PODENDO SELECIONAR UM OU OUTRO !!! -->
+
+      <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="fem" value="Fem"/>
+        <label for="fem">Feminino</label><br />
+        <input type="radio" name="sexo" id="mas" value="Mas" />
+        <label for="mas">Masculino</label>
+      </fieldset>
+
+      <p>
+        <input type="submit" value="Send" />
+        <input type="reset" value="Clear" />
+      </p>
+    </form>
+  </body>
+</html>
