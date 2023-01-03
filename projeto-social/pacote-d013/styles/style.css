@@ -40,25 +40,23 @@ iframe#tela {
   left: 7%;
   height: 469px;
   width: 264px;
-  
 }
 
 section#redes-sociais img {
- width: 50px;
- margin: 10px;
- border-radius: 50%;
- box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
- box-sizing: border-box;
+  width: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+  box-sizing: border-box;
 }
 
 section#redes-sociais {
- text-align: right;
+  text-align: right;
 }
 
 section#redes-sociais img:hover {
- border: 2px solid rgba(255, 255, 255, 0.603);
- transform: translate(-3%, -3%);
- box-shadow: 10px 10px 12px rgb(0, 0, 0);
- transition: transform .3s, border .3s,box-shadow 1s;
- 
+  border: 2px solid rgba(255, 255, 255, 0.603);
+  transform: translate(-3%, -3%);
+  box-shadow: 10px 10px 12px rgb(0, 0, 0);
+  transition: transform 0.3s, border 0.3s, box-shadow 1s;
 }
