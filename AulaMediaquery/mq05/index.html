@@ -11,8 +11,9 @@
     />
 
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media-query.css" />
   </head>
-  <body>
+  <body onresize="mudouTamanho">
     <header>
       <h1>Testando Media Queries</h1>
       <span
@@ -66,6 +67,14 @@
       </article>
     </main>
     <script>
+      function mudouTamanho() {
+        if (window.innerwidth >= 992) {
+          itens.style.display = "block";
+        } else {
+          itens.style.display = "none";
+        }
+      }
+
       function clickMenu() {
         if (itens.style.display == "block") {
           itens.style.display = "none";
